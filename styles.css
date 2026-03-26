@@ -1,10 +1,14 @@
-.basketball-player {
-  height: auto;
-  object-fit: contain;
+.hero {
+    max-height: 600px;
+    overflow: hidden;
 }
 
-.hero-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.basketball-player {
+    max-width: 100%;
+    height: auto;
 }
